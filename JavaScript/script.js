@@ -1,6 +1,6 @@
 // Premièrement, obtenons tous les éléments dont nous avons besoin.
 let dots = Array.from(document.querySelectorAll('.dot'));
-let expressions = Array.from(document.querySelectorAll('.section2_box_expression > div:not(.section2_quote)'));
+let expressions = Array.from(document.querySelectorAll('.section2_box_expression > div:not(.section2_quote) > div:not(.effect)'));
 
 // Maintenant, ajoutons un gestionnaire d'événement à chaque "dot".
 dots.forEach((dot, index) => {

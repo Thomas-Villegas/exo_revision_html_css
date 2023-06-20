@@ -94,20 +94,33 @@ header {
 }
 
 .section2_box_expression {
-    display: flex;
     color: #fff;
     font-size: 32px;
     line-height: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .section2_expression1, .section2_expression2, .section2_expression3, .section2_expression4 {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    width: auto;
+    text-align: center;
     margin: 0 10px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.effect {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
 .off {
-    display: none;
+    opacity: 0;
 }
 
 .section2_quote {
